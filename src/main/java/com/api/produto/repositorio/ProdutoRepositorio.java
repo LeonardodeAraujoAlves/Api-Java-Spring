@@ -11,7 +11,7 @@ import com.api.produto.modelo.ProdutoModelo;
 public interface ProdutoRepositorio extends CrudRepository<ProdutoModelo, Integer>{
 
 	//List all intens
-	List<ProdutoModelo> findAll();//this shit is equals a select * from shit
+	List<ProdutoModelo> findAll();
 	
 	//Search product
 	ProdutoModelo findByCodigo(int codigo);
